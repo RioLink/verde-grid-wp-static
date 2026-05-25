@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="WordPress 6.8.2">
+  <title>Log In ‹ Verde Grid — WordPress</title>
+  <link rel="stylesheet" href="/wp-admin/css/login.min.css?ver=6.8.2">
+  <link rel="stylesheet" href="/wp-includes/css/dashicons.min.css?ver=6.8.2">
+  <link rel="icon" href="/wp-content/themes/verde-grid/assets/img/wp.png">
+  <script defer src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+  <script defer src="/wp-content/themes/verde-grid/assets/js/main.js?ver=1.4.0"></script>
+</head>
+<body class="login wp-core-ui">
+  <div id="login">
+    <h1><a href="/">Powered by WordPress</a></h1>
+    <form id="loginForm" class="login-form" action="/wp-login.php" method="post">
+      <p><label>Ім'я користувача або Email адреса<br><input class="input" type="text" name="log" autocomplete="username"></label></p>
+      <p><label>Пароль<br><span class="password-input-wrapper"><input class="input" type="password" name="pwd" autocomplete="current-password"><button class="button wp-hide-pw" type="button" aria-label="Показати пароль">◉</button></span></label></p>
+      <p class="forgetmenot"><label><input name="rememberme" type="checkbox" value="forever"> Запам'ятати мене</label></p>
+      <p class="submit"><button class="button button-primary" type="submit">Увійти</button></p>
+      <div id="loginError" class="notice notice-error"><p>Помилка: cookies заблоковані або сесія застаріла.</p></div>
+    </form>
+    <p id="nav"><a href="/wp-login.php?action=lostpassword">Втратили свій пароль?</a></p>
+    <p id="backtoblog"><a href="/">← Назад до Verde Grid</a></p>
+    <form class="language-switcher"><label><span class="dashicons dashicons-translation"></span><select><option>Українська</option><option>English (United States)</option></select></label><button class="button" type="button">Змінити</button></form>
+  </div>
+</body>
+</html>

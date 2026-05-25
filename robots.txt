@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://verdegrid.example/sitemap.xml
