@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
-Sitemap: https://verdegrid.example/sitemap.xml
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-includes/
+
+Sitemap: https://performance-verde.site/sitemap.xml
