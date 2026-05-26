@@ -172,3 +172,36 @@
     font-size: 16px;
   }
 }
+/* Home service cards: keep the six-step block visually level. */
+.feature-grid.lively-grid {
+  align-items: stretch;
+  grid-auto-rows: 1fr;
+}
+.feature-grid.lively-grid article {
+  min-height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 34px;
+  transform: none;
+}
+.feature-grid.lively-grid article:nth-child(2n) {
+  transform: none;
+}
+.feature-grid.lively-grid article:hover {
+  transform: translateY(-6px);
+}
+.feature-grid.lively-grid h3 {
+  margin: 18px 0 16px;
+}
+.feature-grid.lively-grid p {
+  margin: 0;
+}
+@media (max-width: 980px) {
+  .feature-grid.lively-grid {
+    grid-auto-rows: auto;
+  }
+  .feature-grid.lively-grid article {
+    min-height: 0;
+  }
+}
